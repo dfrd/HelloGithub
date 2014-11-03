@@ -1,0 +1,184 @@
+body{
+	background-color: #000;
+	color: #fff;
+	font-size: 62.5%;
+	font-size: 1.0rem;
+	
+	background-image: url("../img/bg_graphic.png");
+	background-size: contain;
+}
+p{
+	font-size: 1.4rem;
+}
+img{
+	width: 100%;
+}
+#wrap{
+	width: 1260px;
+	margin: 0 auto;
+}
+#footer{
+	background-color: #111;
+	padding: 15px 0;
+	margin-top: 30px;
+}
+#copyright{
+	text-align: center;
+	color: #fff;
+}
+
+#main-img{
+	margin-bottom: 10px;
+}
+#header{
+	margin-bottom: 25px;
+}
+
+#main{}
+
+#counter{
+	margin-bottom: 15px;
+}
+
+#contents-396{}
+
+#list-396{}
+
+#list-396 >li{
+	margin-bottom: 20px;
+}
+#list-396 >li:last-child{
+	margin-bottom: 0;
+}
+
+.list-396-items{
+	overflow: hidden;
+}
+.list-396-items li{
+	display: block;
+	width: 618px;
+	float: left;
+	margin-right: 20px;
+}
+.list-396-items li:last-child{
+	margin-right: 0;
+}
+
+#list-396 >li:nth-child(even) .list-396-items li{
+	background-color: #555;
+	border: 1px solid #33ff66;
+}
+#list-396 >li:nth-child(odd) .list-396-items li{
+	background-color: #333;
+	border: 1px solid #00ffff;
+}
+
+.wrap-item-block{
+	padding: 15px;
+}
+	/* 590px */
+	.item-block{
+		overflow: hidden;
+	}
+	.item-pic{
+		width: 340px;
+		float: left;
+	}
+	.item-pic p{
+		border: 1px solid #fff;
+		background-color: #000;
+		text-align: center;
+	}
+	.item-text{
+		width: 238px;
+		float: right;
+	}
+	.item-text dl{}
+	
+	.item-text dl dt, 
+	.item-text dl dd{
+		font-size: 0.8rem;
+		padding: 8px;
+		color: #fff;
+		line-height: 1.0rem;
+	}
+	.item-text dl dt{
+		font-weight: bold;
+		background-color: #000;
+	}
+	.nick-name{
+		text-align: right;
+		font-size: 0.8rem;
+	}
+
+
+/*
+------------------------------------ */
+@media screen and (max-width: 768px) {
+	/* SmartPhone
+	----------------------------------- */
+	
+	#wrap{
+		width: auto;
+		margin: 0;
+	}
+	#main{
+		width: 98%;
+		margin: 0 auto;
+	}
+	.list-396-items{
+		overflow: visible;
+	}
+	.list-396-items li{
+		display: block;
+		width: auto;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.list-396-items li:nth-child(even){
+		background-color: #555 !important;
+		border: 1px solid #33ff66 !important;
+	}
+	.list-396-items li:nth-child(odd){
+		background-color: #333 !important;
+		border: 1px solid #00ffff !important;
+	}
+
+	.wrap-item-block{
+		padding: 15px;
+	}
+		/* 590px */
+		.item-block{
+			overflow: visible;
+		}
+		.item-pic{
+			width: auto;
+			float: none;
+			margin-bottom: 10px;
+		}
+		.item-pic p{
+			border: 1px solid #fff;
+		}
+		.item-text{
+			width: auto;
+			float: none;
+		}
+		.item-text dl{}
+		
+		.item-text dl dt, 
+		.item-text dl dd{
+			font-size: 1.0rem;
+			padding: 8px;
+			color: #fff;
+		}
+		.item-text dl dt{
+			font-weight: bold;
+			background-color: #000;
+		}
+		.nick-name{
+			text-align: right;
+			font-size: 0.8rem;
+		}
+		
+}
